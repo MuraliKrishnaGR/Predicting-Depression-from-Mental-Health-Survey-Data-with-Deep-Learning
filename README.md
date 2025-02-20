@@ -14,7 +14,6 @@ This project utilizes a neural network model to predict whether an individual is
   - [Training and Evaluation](#training-and-evaluation)  
   - [Running the Streamlit App](#running-the-streamlit-app)  
 - [Evaluation Metrics](#evaluation-metrics)  
-- [Motivational Messages](#motivational-messages)  
 - [Live Demo](#live-demo)  
 - [License](#license)  
 
@@ -84,6 +83,22 @@ The model is a **feedforward neural network** with the following layers:
 **Optimizer:** Adam | **Loss Function:** Binary Crossentropy
 
 ---
+## Evaluation Metrics
+
+- **Validation Accuracy:** 0.9076
+
+**Classification Report:**
+
+```plaintext
+               precision    recall  f1-score   support
+
+           0       0.98      0.90      0.94     22986
+           1       0.68      0.93      0.79      5154
+
+    accuracy                           0.91     28140
+   macro avg       0.83      0.92      0.86     28140
+weighted avg       0.93      0.91      0.91     28140
+```
 ## Streamlit Application
 
 The Streamlit app offers a simple interface for real-time depression prediction. Users enter their personal details, and the app uses a pre-saved scaler and trained neural network (`keras_model.h5`) to output a prediction ("Depressed" or "Not Depressed") along with a tailored motivational message.
