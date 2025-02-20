@@ -15,7 +15,6 @@ This project utilizes a neural network model to predict whether an individual is
   - [Running the Streamlit App](#running-the-streamlit-app)  
 - [Evaluation Metrics](#evaluation-metrics)  
 - [Live Demo](#live-demo)  
-- [License](#license)  
 
 ---
 
