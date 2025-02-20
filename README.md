@@ -57,11 +57,11 @@ class weights are used to improve model performance.
 | Feature Name | Description |
 |-------------|-------------|
 | `Age` | Age of the individual |
-| `Work_Pressure` | Stress level at work (0-10 scale) |
-| `Job_Satisfaction` | Satisfaction with job (0-10 scale) |
+| `Work_Pressure` | Stress level at work (0-5 scale) |
+| `Job_Satisfaction` | Satisfaction with job (0-5 scale) |
 | `Sleep_Duration` | Average sleep hours per day |
 | `Work_or_Study_Hours` | Daily work/study hours |
-| `Financial_Stress` | Financial burden level (0-10 scale) |
+| `Financial_Stress` | Financial burden level (0-5 scale) |
 | `Gender_Male` | 1 if Male, 0 if Female |
 | `Working_Professional_or_Student_Working_Professional` | 1 if working professional, 0 if student |
 | `Have_you_ever_had_suicidal_thoughts_?_Yes` | 1 if Yes, 0 if No |
