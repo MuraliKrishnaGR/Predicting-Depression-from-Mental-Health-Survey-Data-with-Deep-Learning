@@ -81,7 +81,7 @@ if submit_button:
     
     # Get prediction from the Keras model (probability)
     pred_prob = keras_model.predict(scaled_input)
-    pred = (pred_prob > 0.5).astype("int32").flatten()[0]
+    pred = (pred_prob > 0.65).astype("int32").flatten()[0]
     
     # Determine the prediction result and motivational message
     if pred == 1:
