@@ -85,19 +85,19 @@ The model is a **feedforward neural network** with the following layers:
 ---
 ## Evaluation Metrics
 
-- **Validation Accuracy:** 0.9076
+- **Validation Accuracy:** 0.9277
 
 **Classification Report:**
 
-```plaintext
+```
                precision    recall  f1-score   support
 
-           0       0.98      0.90      0.94     22986
-           1       0.68      0.93      0.79      5154
+           0       0.97      0.94      0.96     22986
+           1       0.77      0.86      0.81      5154
 
-    accuracy                           0.91     28140
-   macro avg       0.83      0.92      0.86     28140
-weighted avg       0.93      0.91      0.91     28140
+    accuracy                           0.93     28140
+   macro avg       0.87      0.90      0.88     28140
+weighted avg       0.93      0.93      0.93     28140
 ```
 ## Streamlit Application
 
