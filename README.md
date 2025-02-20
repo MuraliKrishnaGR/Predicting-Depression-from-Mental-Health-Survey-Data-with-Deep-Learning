@@ -1,4 +1,4 @@
-# Depression Prediction Project  
+# Predicting Depression from Mental Health Survey Data with Deep Learning
 
 This project utilizes a neural network model to predict whether an individual is experiencing depression based on various personal, lifestyle, and work-related features. The pipeline includes data preprocessing, model training (handling class imbalance), evaluation, and a user-friendly **Streamlit web application** for real-time predictions.
 
