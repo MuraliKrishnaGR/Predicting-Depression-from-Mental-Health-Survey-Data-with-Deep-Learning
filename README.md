@@ -112,3 +112,5 @@ The Streamlit app offers a simple interface for real-time depression prediction.
 ### Live Demo
 
 Try the app live: 👉 [Streamlit Live App](https://ay9jbcnnadtpa2vtfvyv6k.streamlit.app/)
+
+© 2025 MuraliKrishnaGR. All rights reserved
