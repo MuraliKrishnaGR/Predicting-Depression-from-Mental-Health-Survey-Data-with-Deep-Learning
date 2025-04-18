@@ -98,9 +98,10 @@ The model is a **feedforward neural network** with the following layers:
    macro avg       0.87      0.90      0.88     28140
 weighted avg       0.93      0.93      0.93     28140
 ```
+
 - **Validation Accuracy:** 0.9373
   
-**Classification Report-1(pipeline.ipynb):**
+**Classification Report-2(pipeline.ipynb):**
 ```
                  precision    recall  f1-score   support
 
