@@ -86,7 +86,7 @@ The model is a **feedforward neural network** with the following layers:
 
 - **Validation Accuracy:** 0.9277
 
-**Classification Report:**
+**Classification Report-1(health.ipynb):**
 
 ```
                precision    recall  f1-score   support
@@ -97,6 +97,19 @@ The model is a **feedforward neural network** with the following layers:
     accuracy                           0.93     28140
    macro avg       0.87      0.90      0.88     28140
 weighted avg       0.93      0.93      0.93     28140
+```
+- **Validation Accuracy:** 0.9373
+  
+**Classification Report-1(pipeline.ipynb):**
+```
+                 precision    recall  f1-score   support
+
+           0       0.95      0.92      0.94     22873
+           1       0.92      0.95      0.94     23152
+
+    accuracy                           0.94     46025
+   macro avg       0.94      0.94      0.94     46025
+weighted avg       0.94      0.94      0.94     46025
 ```
 ## Streamlit Application
 
@@ -111,6 +124,6 @@ The Streamlit app offers a simple interface for real-time depression prediction.
    
 ### Live Demo
 
-Try the app live: 👉 [Streamlit Live App](https://ay9jbcnnadtpa2vtfvyv6k.streamlit.app/)
+Try the app live: 👉 [Streamlit Live App](https://ocbgdcn6csn3f9rnwxgvza.streamlit.app/)
 
 © 2025 MuraliKrishnaGR. All rights reserved
