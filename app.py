@@ -4,6 +4,15 @@ import joblib
 import tensorflow as tf
 import numpy as np
 
+import sklearn.compose._column_transformer as ct_mod
+
+# Patch missing class for backward compatibility (fixes _RemainderColsList error)
+if not hasattr(ct_mod, "_RemainderColsList"):
+    class _RemainderColsList(list):
+        pass
+    ct_mod._RemainderColsList = _RemainderColsList
+
+
 # Configure the page
 st.set_page_config(page_title="Depression Prediction App", layout="centered")
 
